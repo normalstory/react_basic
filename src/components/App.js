@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/base.scss';
 
-import UsingTheRef from './practice/UsingTheRef';
+import NoneRef from './practice/NoneRef';
 
 export default class App extends Component{
     render(){
         return(
-            <UsingTheRef></UsingTheRef>
+            <NoneRef></NoneRef>
         )
     }
 }

@@ -1,7 +1,8 @@
 import React,{ Component } from "react";
-import "../practice/UsingTheRef.scss";
+import "../practice/NoneRef.scss";
 
-export default class UsingTheRef extends Component{
+//되도록 DOM또는 ref 없이 처리하기위한 연습 예제 
+export default class NoneRef extends Component{
     state={
         write:'',
         answer:'0000',
