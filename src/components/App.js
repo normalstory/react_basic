@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/base.scss';
 
-import NoneRef from './practice/NoneRef';
+import FunctionTypeComponent from './practice/FunctionTypeComponent';
 
 export default class App extends Component{
     render(){
         return(
-            <NoneRef></NoneRef>
+            <FunctionTypeComponent name="홍길동"></FunctionTypeComponent>
         )
     }
 }
