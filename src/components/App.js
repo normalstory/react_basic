@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/base.scss';
 
-import MultiEvent from './practice/MultiEvent';
+import UsingTheRef from './practice/UsingTheRef';
 
 export default class App extends Component{
     render(){
         return(
-            <MultiEvent></MultiEvent>
+            <UsingTheRef></UsingTheRef>
         )
     }
 }
