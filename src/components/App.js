@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../styles/base.scss';
 
-import FuncOfLamda from './practice/FuncOfLamda';
+import CrudPractice from './practice/CrudPractice';
 
 export default class App extends Component{
     render(){
         return(
-            <FuncOfLamda></FuncOfLamda>
+            <CrudPractice></CrudPractice>
         )
     }
 }
